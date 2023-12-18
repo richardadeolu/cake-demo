@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title> Registration form </title>
+            <meta charset="utf-8">
+                <link rel="stylesheet" href="assets/css/bootstrap-4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/web-fonts-with-css/css/fontawesome-all.min.css">
+        </head>
+        <style>
+body{
+    margin:0;
+    padding:0;
+    background-image:url("assets/images/3.jpg");
+    background-size: cover;
+    background-position: inherit;
+    font-family: sans-serif;
+}
+
+.navbar{
+    background: salmon;
+    
+}
+
+.navbar .navbar-brand{
+    color: white;
+    font-family: serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 25px;
+    text-shadow: 1px 1px 10px #000;
+}
+
+.navbar .nav-link{
+    color: white;
+    text-shadow: 1px 1px 10px #000;
+}
+
+.login-box{
+    width:320px;
+    height:550px;
+    background:rgba(20, 20, 19, 0.13);
+    color:#fff;
+    top:50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing:border-box;
+    padding: 70px 30px;
+    margin-top: 40px;
+}
+.avatar{
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 110px;
+    
+}
+h1{
+    margin-bottom:20px;
+    margin-left: 20px;
+    padding:0;
+    font-weight: bold;
+    color: salmon;
+}
+.login-box input{
+    width: 100%;
+    margin-bottom:10px;
+}
+.login-box input[type="text"], input[type="flavor"], input[type="phone number"],input[type="text-area"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height:20px;
+    color: #fff;
+    font-sixe:16px;
+}
+.login-box input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background:#1c8adb;
+    color:#fff;
+    font-size:18px;
+    border-radius: 20px;
+}
+.login-box input[type="submit"]:hover
+{
+    cursor: pointer;
+    background:#39dc79;
+    color:#000;
+}
+.login-box a{
+    text-decoration: none;
+    font-size:14px;
+    color:#fff;
+    float:left;
+    padding: 5px 25px;
+}
+.login-box a:hover{
+   color: #39dc79; 
+}
+
+.footer{
+    background-color: #0f1215;
+   padding: 0.5em 0;
+   text-align: center;
+   margin-top: 3em;
+  }
+
+
+
+
+        </style>
+        <body>
+                <nav class="navbar navbar-expand-lg navbar-dark ">
+                        <a class="navbar-brand animated bounceInRight" href="#">Cake Lovers</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                      
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                          <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                              <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item active">
+                              <a class="nav-link" href="loginform.html">Order</a>
+                            </li>
+                            <li class="nav-item active">
+                             <a class="nav-link" href="contact-form">About Us</a>
+                             </li>
+                            
+                        </div>
+                        </div>
+                      </nav>
+                      
+                      <div class="container" style="margin-top:30px;">
+            <div class="login-box">
+                
+                 <h1> Order Here</h1>
+                 <form>
+                    <p>Full Name</p>
+                    <input type="text" name="full name" placeholder="">
+                    <p>phone number</p>
+                    <input type="phone number" name="username" placeholder="">
+                    <p>Address</p>
+                    <input type="text-area" name="full name" placeholder="">
+                     <p>Select Size</p>
+                     <div class="form-group" style="opacity:0.7;">
+                            <label for="exampleFormControlSelect1"Cake Size</label>
+                            <select class="form-control" id="exampleFormControlSelect1" style="opacity:0.7;z-index:1010;">
+                              <option class="text-center"> 6 inches</option>
+                              <option>8 inches</option>
+                              <option>10 inches</option>
+                              <option>12 inches</option>
+                            </select>
+                          </div>
+                    <input type="flavor" name="flavor" placeholder="what flavor do you want">
+                        <input type="submit" name="submit" value="Order">
+                           
+                 </form>
+                    
+            </div>
+        </div>
+
+               
+        </body>
+    </html>
+    
