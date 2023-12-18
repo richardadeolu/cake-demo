@@ -1,0 +1,42 @@
+PUSHING A NEW PROJECT TO AN EXISTING GITHUB REPO (First Time)
+---------------------------------------------------
+COMMANDS
+---------------------------------------------------
+1. git init
+2. git add .
+3. git commit -m "commit message"
+4. git remote add origin repo_url
+5. git branch -M main/master
+6. git pull origin main (error: git pull origin main --rebase)
+7. git push -u origin main.
+
+PUSHING A NEW PROJECT TO A NEW GITHUB REPO (without README.md)
+---------------------------------------------------
+COMMANDS
+---------------------------------------------------
+1. git init
+2. git add .
+3. git commit -m "commit message"
+4. git remote add origin repo_url
+5. git branch -M main/master
+6. git push -u origin main.
+
+PUSHING A PROJECT TO AN EXISTING GITHUB REPO (update repo)
+---------------------------------------------------
+COMMANDS
+---------------------------------------------------
+1. git init
+2. git add .
+3. git commit -m "commit message"
+4. git push
+
+PULLING A PROJECT FROM AN EXISTING GITHUB REPO (get update repo)
+---------------------------------------------------
+COMMANDS
+---------------------------------------------------
+1. git init
+2. git pull
+
+
+
+
